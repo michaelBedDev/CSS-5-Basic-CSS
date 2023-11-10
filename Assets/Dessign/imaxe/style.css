@@ -4,19 +4,24 @@ body{
     width: 160;
     height: 130;
 }
-div:first-child {
+#rectanguloAzul {
     position: absolute;
     background-color:#354BF7 ;
     width: 110;
     height: 75;
-    top:20;
+    top:100;
     right:25;
 }
-
-
-div:nth-child(n+6){
+#rectanguloBlanco{
     position: absolute;
-    background-color: #354BF7;
+    background-color: #FFF;
     width: 10;
     height: 20;
+    top: 0;
+}
+.rectPequeno{
+    position: absolute;
+}
+.azulPequenoFuera{
+    position: absolute;
 }
