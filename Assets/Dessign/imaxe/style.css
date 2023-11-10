@@ -1,0 +1,22 @@
+body{
+    background-color: #C70039;
+    position: absolute;
+    width: 160;
+    height: 130;
+}
+div:first-child {
+    position: absolute;
+    background-color:#354BF7 ;
+    width: 110;
+    height: 75;
+    top:20;
+    right:25;
+}
+
+
+div:nth-child(n+6){
+    position: absolute;
+    background-color: #354BF7;
+    width: 10;
+    height: 20;
+}
